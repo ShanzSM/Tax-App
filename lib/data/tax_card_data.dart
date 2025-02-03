@@ -1,4 +1,4 @@
-import 'package:tax_app/model/tax_card_model.dart';
+import '../model/tax_card_model.dart';
 
 List<TaxCardModel> taxItems = [
   TaxCardModel(
