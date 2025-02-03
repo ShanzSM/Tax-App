@@ -66,27 +66,6 @@ class TaxCard extends StatelessWidget {
               )
             ],
           ),
-
-          /* child: Row(
-            children: [
-              Image.asset(taxCard.iconPath,
-                  width: 40, height: 40), // Asset image for icons
-              SizedBox(width: 15),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(taxCard.name,
-                        style:
-                            TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
-                    SizedBox(height: 5),
-                    
-                  ],
-                ),
-              ),
-             
-            ],
-          ),*/
         ),
       ],
     );

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:tax_app/components/tax_card.dart';
 import 'package:tax_app/constant/colors.dart';
 import '../data/tax_card_data.dart';
-import 'tax_card.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
