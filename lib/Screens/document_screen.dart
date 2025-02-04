@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:tax_app/components/Document_Card.dart';
+import 'package:tax_app/components/document_card.dart';
 import 'package:tax_app/constant/colors.dart';
 import 'package:tax_app/data/document_card_data.dart';
+
+import 'package:tax_app/model/document_card_model.dart';
 
 class DocumentScreen extends StatefulWidget {
   const DocumentScreen({super.key});
@@ -45,9 +47,9 @@ class _DocumentScreenState extends State<DocumentScreen> {
                     // Scrollable Tax List
                     Expanded(
                       child: ListView.builder(
-                        itemCount: cardItems.length,
+                        itemCount: docItems.length,
                         itemBuilder: (context, index) {
-                          return DocumentCard(docCard: cardItems[index]);
+                          return DocumentCard(docCard: docItems[index]);
                         },
                       ),
                     ),

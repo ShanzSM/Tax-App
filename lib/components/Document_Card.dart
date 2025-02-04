@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tax_app/components/custom_button.dart';
 import 'package:tax_app/constant/colors.dart';
-import 'package:tax_app/model/document_card.dart';
+import 'package:tax_app/model/document_card_model.dart';
 
 class DocumentCard extends StatelessWidget {
   final DocumentCardModel docCard;

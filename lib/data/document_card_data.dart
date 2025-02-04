@@ -1,6 +1,6 @@
-import '../model/document_card.dart';
+import '../model/document_card_model.dart';
 
-List<DocumentCardModel> cardItems = [
+List<DocumentCardModel> docItems = [
   DocumentCardModel(
     title: "Application Form",
     description:

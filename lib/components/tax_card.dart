@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tax_app/Screens/tax_pay_screen.dart';
 import 'package:tax_app/constant/colors.dart';
 import 'package:tax_app/model/tax_card_model.dart';
 import 'custom_button.dart';
@@ -57,7 +58,11 @@ class TaxCard extends StatelessWidget {
                       CustomButton(
                         text: "Pay Now",
                         onPressed: () {
-                          // Add your payment action here
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => TaxPayScreen()),
+                          );
                         },
                       ),
                     ],
